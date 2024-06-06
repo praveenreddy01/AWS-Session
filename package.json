@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "tsc"
   },
   "author": "Kunal Verma",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
     "dotenv": "^16.0.1",
@@ -18,3 +20,4 @@
     "stripe": "^9.8.0"
   }
 }
+
